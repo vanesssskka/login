@@ -1,0 +1,151 @@
+@import "./fonts.css";
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, sans-serif ;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+button{
+    border: none;
+    background: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.d-flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.row{
+    display: flex;
+}
+.col-6{
+    width: 50%;
+}
+.auth .col-6{
+    position: relative;
+}
+.auth{
+    height: 100vh;
+}
+.auth_bg{
+    height: 100vh;
+    background: url("../images/img.png") no-repeat center/cover;
+}
+.auth_form_title{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #1A202C;
+    margin: 22px 0 5px;
+}
+.auth_subtitle{
+    font-weight: 400;
+    text-align: center;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2D3748;
+}
+.auth_sizing{
+    width: 347px;
+    height: 50px;
+    display: block;
+    border-radius: 5px;
+}
+.auth_label{
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4A5568;
+}
+.auth_inp{
+    margin: 11px 0;
+    border: 1px solid #E8E8E8;
+    color: #2D3748;
+    padding: 0 20px;
+}
+#pass::placeholder{
+    color: #000000;
+}
+.auth_label::placeholder{
+    color: #2D3748;
+}
+.auth_tick_label{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2D3748;
+    margin-left: 11px;
+}
+.auth_form .d-flex{
+    margin: 17px 0 12px;
+}
+.auth_link{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2C5282;
+}
+.auth_login{
+    margin-top: 15px;
+    background: #04C45C;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    transition: .3s;
+}
+.auth_login:hover{
+    background: #04C45cd4;
+}
+.auth_signin{
+    margin-top: 15px;
+    background: #2D3748;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+.auth_signin:hover{
+    background: #2d3748db;
+}
+.auth_signin svg{
+    margin-right: 11px;
+    align-items: center;
+}
+.auth_register{
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    margin:  0 auto;
+    width: 274px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #616161;
+}
+.auth_join{
+    color: #2b6cb0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.75px;
+}
